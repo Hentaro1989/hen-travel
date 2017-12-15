@@ -1,0 +1,57 @@
+body {
+    overflow: hidden;
+}
+
+#numerator,
+#denominator {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+
+.mdl-card-wide {
+    width: auto;
+    margin: 10px;
+}
+
+.mdl-textfield,
+#searchButton {
+    display: block;
+    margin: 0 auto;
+}
+
+.mdl-mini-footer {
+    padding: 16px 16px;
+    min-height: 32px;
+}
+
+.c-datepicker__header-date__day {
+    line-height: normal;
+}
+
+.c-datepicker__header-date {
+    padding: 4px 0;
+}
+
+.c-datepicker__toggle.c-datepicker__toggle--left.c-datepicker--show-calendar,
+.c-datepicker__toggle.c-datepicker__toggle--right.c-datepicker--show-time,
+.c-datepicker__header-date__time.js-date-time {
+    display: none;
+}
+
+.c-datepicker__header-date {
+    height: auto !important;
+}
+
+.c-datepicker {
+    min-height: 475px !important;
+}
+
+.c-datepicker__header-date__month.js-date-month {
+    display: inline;
+}
+
+.c-datepicker__header-date__day.js-date-day {
+    display: inline;
+    font-size: 50px;
+}
